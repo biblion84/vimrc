@@ -6,7 +6,11 @@ syntax on
 set background=dark
 colorscheme  solarized
 filetype plugin indent on
-
+set relativenumber
+set matchpairs=(:),{:},[:],<:>
+set smartcase
+set autoindent
+set smartindent
 " PATHOGEN
 call pathogen#infect()
 
