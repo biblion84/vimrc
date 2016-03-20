@@ -1,7 +1,9 @@
-set nocompatible
+"set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
+"source $VIMRUNTIME/mswin.vim
+"behave mswin
+filetype plugin on
+
 syntax on
 set background=dark
 colorscheme  solarized
@@ -11,8 +13,9 @@ set matchpairs=(:),{:},[:],<:>
 set smartcase
 set autoindent
 set smartindent
+
 " PATHOGEN
-call pathogen#infect()
+execute pathogen#infect()
 
 "DISABLE BELLS
 autocmd GUIEnter * set vb t_vb=
