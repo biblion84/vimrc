@@ -6,7 +6,7 @@ filetype plugin on
 
 syntax on
 set background=dark
-colorscheme  solarized
+colorscheme  hybrid
 filetype plugin indent on
 set relativenumber
 set matchpairs=(:),{:},[:],<:>
@@ -15,7 +15,7 @@ set autoindent
 set smartindent
 
 " PATHOGEN
-execute pathogen#infect()
+" execute pathogen#infect()
 
 "DISABLE BELLS
 autocmd GUIEnter * set vb t_vb=
